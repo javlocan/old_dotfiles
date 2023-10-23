@@ -1,0 +1,17 @@
+# imported from $HOME/.alacritty.yml with
+# import:
+#   - ~/.config/dotfiles/alacritty.yml
+
+env:
+  TERM: xterm-256color
+window:
+  background:
+    opacity: 0.8
+  padding:
+    x: 10
+    y: 5
+  startup_mode: Maximized 
+font:
+  size: 10
+key_bindings:
+  - { key: F11, action: ToggleFullscreen }
