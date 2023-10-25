@@ -6,11 +6,19 @@ env:
   TERM: xterm-256color
 window:
   opacity: 0.95
-  padding:
-    x: 10
-    y: 5
-  startup_mode: Maximized 
+  # padding:
+  #   x: 8
+  #   y: 5
+  startup_mode: Fullscreen
 font:
+  normal:
+    family: CaskaydiaCove Nerd Font Mono 
   size: 10
 key_bindings:
   - { key: F11, action: ToggleFullscreen }
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
