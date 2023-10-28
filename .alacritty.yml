@@ -16,7 +16,7 @@ scrolling:
   multiplier: 3
 font:
   normal:
-    family: CaskaydiaCove Nerd Font Mono 
+    family: CaskaydiaCove Nerd Font
   size: 10
 key_bindings:
   - { key: F11, action: ToggleFullscreen }
