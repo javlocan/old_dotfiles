@@ -1,6 +1,9 @@
 # My dotfiles
 
 #### Including at the moment:
+- alacritty setup for PDE with tmux
+- tmux basic config (colorized as nvim)
 - nvim config from customized kickstart.nvim
-- zsh without plugin manager*
-* is decent but doing some weird shit I have to look into
+soon enough I will make if from scratch... this is hell
+- zsh with ohmyzsh and powerlevel10k
+- .Xmodmap modifications for neovim usage (for my laptop)
