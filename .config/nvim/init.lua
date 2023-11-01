@@ -285,7 +285,7 @@ vim.o.termguicolors = true
 -- Numbers to relative
 vim.wo.relativenumber = true
 -- FAT cursor
-vim.opt.guicursor = ""
+-- vim.opt.guicursor = ""
 
 -- [[ Basic Keymaps ]]
 
