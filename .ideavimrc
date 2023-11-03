@@ -1,0 +1,22 @@
+hi Search ctermbg=White
+
+let mapleader = " "
+inoremap jk <Esc>
+
+
+set clipboard+=unnamed
+
+set showmode
+set showcmd
+
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+
+set surround
+
+set highlightedyank
+
+set nerdtree

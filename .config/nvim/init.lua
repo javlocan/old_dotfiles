@@ -14,6 +14,7 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.opt.laststatus = 3
+vim.opt.scrolloff = 2
 -- Install package manager
 P = function(v)
   print(vim.print(v))
